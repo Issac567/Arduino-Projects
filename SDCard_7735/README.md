@@ -1,4 +1,11 @@
 # ESP32 TFT Image Workflow (Pixlr → RGB565 → ESP32)
+## Required Components
+* [Aliexpress - SD Card](https://www.aliexpress.us/w/wholesale-sdcard-module.html?spm=a2g0o.productlist.search.0)
+* [Aliexpress - ST7735 Display](https://www.aliexpress.us/w/wholesale-ST7735.html?spm=a2g0o.productlist.search.0)
+* [Aliexpress - ESP32E Wroom](https://www.aliexpress.us/w/wholesale-ESP32E-Wroom.html?spm=a2g0o.productlist.search.0)
+
+---
+
 ## Wiring Diagram
 ![Wiring diagram](ESP32E_SDCard_ST7735.jpg)
 
