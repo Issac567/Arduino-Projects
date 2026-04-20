@@ -13,7 +13,7 @@ Open Pixlr:
 https://pixlr.com/editor/
 
 ### Instructions:
-- Upload your original image (do NOT pre-resize or compress it)
+- Upload your original image
 - Make sure it is high quality before editing
 
 ---
