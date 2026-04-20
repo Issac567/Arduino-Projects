@@ -1,5 +1,5 @@
 ## Wiring Diagram
-![Wiring diagram](ESP32_SDCard_ST7735.jpg)
+![Wiring diagram](ESP32E_SDCard_ST7735.jpg)
 
 # ESP32 TFT Image Workflow (Pixlr → RGB565 → ESP32)
 
