@@ -59,6 +59,7 @@ You can now use the RGB565 data in your project:
 
 ### Renaming:
 - Make sure to rename file matching the .ino code to `picture.raw` file and store on SD card
+- Make sure total bytes is 40,960!  2 Bytes per pixels in ST7735.
 
 ### Display Flow:
 ESP32 reads RGB565 data → sends via SPI → ST7735 displays image
