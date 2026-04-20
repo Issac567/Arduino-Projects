@@ -83,7 +83,7 @@ void setup() {
   }
 
   // ✅ IMPORTANT: width = 128, height = 160
-  drawRaw("/Family.raw", 0, 0, 128, 160);
+  drawRaw("/picture.raw", 0, 0, 128, 160);
 }
 
 void loop() {}
