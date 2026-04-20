@@ -1,7 +1,8 @@
+# ESP32 TFT Image Workflow (Pixlr → RGB565 → ESP32)
 ## Wiring Diagram
 ![Wiring diagram](ESP32E_SDCard_ST7735.jpg)
 
-# ESP32 TFT Image Workflow (Pixlr → RGB565 → ESP32)
+---
 
 ## Overview
 This guide explains how to properly prepare images for ESP32 TFT displays (ST7735 / similar). It ensures correct resolution, format, and conversion to RGB565 for embedded use.
