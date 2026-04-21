@@ -19,6 +19,42 @@ This guide explains how to properly prepare images for ESP32 TFT displays (ST773
 
 ---
 
+## 🔧 Hardware Used
+
+- ESP32 Development Board
+- ST7735 TFT Display (128x160)
+- SD Card Module (SPI shared bus)
+
+---
+
+## 🔌 Wiring (ST7735 TFT)
+
+| TFT Pin | ESP32 Pin |
+|--------|-----------|
+| VCC    | 3.3V      |
+| GND    | GND       |
+| SCL    | GPIO 18 (SCLK) |
+| SDA    | GPIO 23 (MOSI) |
+| RES    | GPIO 4    |
+| DC     | GPIO 2    |
+| CS     | GPIO 17   |
+| BLK    | 3.3V      |
+
+---
+
+## ⚙️ SD Card (Optional)
+
+| SD Pin | ESP32 Pin |
+|--------|-----------|
+| CS     | GPIO 5    |
+| MOSI   | GPIO 23   |
+| MISO   | GPIO 19   |
+| SCK    | GPIO 18   |
+
+> Note: SD card is disabled in this demo to prevent SPI conflicts during TFT initialization.
+
+---
+
 ## 🖼️ Step 1: Upload Original Image to Pixlr
 
 You must start with the **original image**.
