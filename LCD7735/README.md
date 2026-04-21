@@ -31,7 +31,7 @@ Simple ESP32 project that initializes an ST7735 TFT screen and displays basic te
 | RES    | GPIO 4    |
 | DC     | GPIO 2    |
 | CS     | GPIO 17   |
-| BLK    | 3.3V      |
+| LED    | 3.3V      |
 
 ---
 
