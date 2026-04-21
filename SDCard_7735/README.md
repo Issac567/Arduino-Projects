@@ -38,7 +38,7 @@ This guide explains how to properly prepare images for ESP32 TFT displays (ST773
 | RES    | GPIO 4    |
 | DC     | GPIO 2    |
 | CS     | GPIO 17   |
-| BLK    | 3.3V      |
+| LED    | 3.3V      |
 
 ---
 
