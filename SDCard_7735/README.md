@@ -55,6 +55,16 @@ This guide explains how to properly prepare images for ESP32 TFT displays (ST773
 
 ---
 
+## 📦 Libraries Required
+
+Install via Arduino Library Manager:
+
+- Adafruit GFX Library
+- Adafruit ST7735 and ST7789 Library
+- SPI (built-in)
+  
+---
+
 ## 🖼️ Step 1: Upload Original Image to Pixlr
 
 You must start with the **original image**.
