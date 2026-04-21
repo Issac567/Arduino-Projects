@@ -5,7 +5,7 @@ Samples of Arduino projects
 
 # Arduino Setup Guide (ESP32 + ST7735 + SD Card)
 
-This project uses an ESP32 with an ST7735 TFT display and SD card module over shared SPI.
+This project uses an ESP32 Wroom with an ST7735 TFT display and SD card module over shared SPI.
 
 ---
 
