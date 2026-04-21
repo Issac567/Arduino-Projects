@@ -51,8 +51,6 @@ This guide explains how to properly prepare images for ESP32 TFT displays (ST773
 | MISO   | GPIO 19   |
 | SCK    | GPIO 18   |
 
-> Note: SD card is disabled in this demo to prevent SPI conflicts during TFT initialization.
-
 ---
 
 ## 📦 Libraries Required
