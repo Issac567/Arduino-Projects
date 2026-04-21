@@ -42,7 +42,7 @@ This guide explains how to properly prepare images for ESP32 TFT displays (ST773
 
 ---
 
-## ⚙️ SD Card (Optional)
+## ⚙️ SD Card
 
 | SD Pin | ESP32 Pin |
 |--------|-----------|
