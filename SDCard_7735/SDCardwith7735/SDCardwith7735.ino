@@ -8,7 +8,7 @@
  * - RES    -> GPIO 4  (Reset)
  * - DC/A0  -> GPIO 2  (Data/Command)
  * - CS     -> GPIO 17 (TFT Chip Select)
- * - BLK    -> 3.3V    (Backlight)
+ * - LED    -> 3.3V    (Backlight)
  *
  * SD CARD MODULE:
  * - VCC    -> 3.3V
@@ -28,8 +28,8 @@
 // Pin Definitions
 #define SD_CS     5
 #define TFT_CS   17
-#define TFT_DC    2 
-#define TFT_RST   4
+#define TFT_DC    2   // A0 Pin
+#define TFT_RST   4   // Reset Pin
 
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 
@@ -39,7 +39,7 @@ void drawRaw(const char* filename, int16_t x, int16_t y, int16_t w, int16_t h) {
   File imgFile = SD.open(filename);
 
   if (!imgFile) {
-    Serial.println("File not found!");
+    tft.println("File not found!");
     return;
   }
 
