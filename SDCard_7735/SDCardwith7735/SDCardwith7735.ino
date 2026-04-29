@@ -70,6 +70,8 @@ void setup() {
   digitalWrite(TFT_CS, HIGH);
   digitalWrite(SD_CS, HIGH);
 
+  SPI.begin(18, 19, 23, 5);
+  
   tft.initR(INITR_BLACKTAB);
 
   // ✅ Portrait mode (128x160) (Raw wont work in Landscape)
